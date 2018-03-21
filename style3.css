@@ -1,0 +1,78 @@
+*{
+  font-family: 'Mina', sans-serif;
+}
+
+section{
+  margin-top: 5%;
+}
+
+h1{
+  color: white;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.poptxt{
+  background-color: white;
+  text-align: center;
+}
+
+.musik{
+  justify-content: space-around;
+  display: flex;
+  padding-top: 2em;
+  background-color: lightgrey;
+}
+
+.pop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.rock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+
+}
+
+.jazz{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.hiphop{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.poppic{
+  height: 50%;
+  border-radius: 0.2em;
+}
+
+
+.rockpic{
+  height: 50%;
+  border-radius: 0.2em;
+}
+
+.jazzpic{
+  height: 50%;
+  border-radius: 0.2em;
+}
+
+.fittypic{
+  height: 50%;
+  border-radius: 0.2em;
+}

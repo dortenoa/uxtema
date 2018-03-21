@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pop - Billetsalg.dk</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="img/logo.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+    <link href="style4.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+
+
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/back.png" alt=""><h1>Menu</h1></a>
+    <div class="menuitem" id="menuitem1" href="#">Musik<img src="img/expand.png">
+      <div class="menucontent" id="menucontent1">
+          <a href="#" class="undermenupunkt" id="undermenupunkttop">Gospel</a>
+          <a href="#" class="undermenupunkt">Rock</a>
+          <a href="pop.html" class="undermenupunkt">Pop</a>
+          <a href="#" class="undermenupunkt">Soul</a>
+          <a href="#" class="undermenupunkt">Latin Musik</a>
+          <a href="#" class="undermenupunkt">Klassisk Musik</a>
+          <a href="#" class="undermenupunkt">Schlagermusik</a>
+          <a href="#" class="undermenupunkt">Reggae</a>
+          <a href="#" class="undermenupunkt">Jazz/Blues</a>
+          <a href="#" class="undermenupunkt">Korsang</a>
+      </div>
+    </div>
+    <div class="menuitem" id="menuitem2" href="#">Sport<img src="img/expand.png">
+      <div class="menucontent" id="menucontent2">
+          <a href="facebook.com" class="undermenupunkt" id="undermenupunkttop">Badminton</a>
+          <a href="#" class="undermenupunkt">Basketball</a>
+          <a href="#" class="undermenupunkt">eSport</a>
+          <a href="#" class="undermenupunkt">Golf</a>
+          <a href="#" class="undermenupunkt">Håndbold</a>
+          <a href="#" class="undermenupunkt">Motorsport</a>
+          <a href="#" class="undermenupunkt">Svømning</a>
+      </div>
+    </div>
+    <div class="menuitem" href="#">Festivaler<img src="img/expand.png"></div>
+    <div class="menuitem" href="#">Familie<img src="img/expand.png"></div>
+    <div class="menuitem" href="#">Underholdning<img src="img/expand.png"></div>
+    <div class="menuitem" href="#">Gavekort</div>
+  </div>
+
+  <span class="burgerspan" onclick="openNav()">☰</span>
+
+<div class="desktopinfo">
+  <span>Gavekort</span>
+  <span>Kontakt</span>
+</div>
+
+<div class="mobileheader">
+  <a href="index.html"><img src="img/logo.png" alt=""></a>
+  <input type="text" placeholder="Søg efter arrangement, kunstner eller dato" name="search" value="">
+</div>
+
+<div class="desktopheader">
+<a href="index.html"><img src="img/logo.png" alt=""></a>
+    <div class="menuitemsdesktop">
+      <li id="musikdrop">Musik</li>
+      <li>Sport</li>
+      <li>Festivaler</li>
+      <li>Familie</li>
+      <li>Underholdning</li>
+    </div>
+</div>
+
+<div class="dropdownmusik" id="dropdownstyle">
+  <a href="#">Gospel</a>
+  <a href="#">Rock</a>
+  <a href="pop.html">Pop</a>
+  <a href="#">Soul</a>
+  <a href="#">Latin Musik</a>
+  <a href="#">Klassisk Musik</a>
+  <a href="#">Schlagermusik</a>
+  <a href="#">Reggae</a>
+  <a href="#">Jazz/Blues</a>
+  <a href="#" class="noborder">Korsang</a>
+</div>
+
+<div class="fbdiv">
+
+  <iframe class="fbplads1" id="fbplads1" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbilletsalg&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+<div class="fbplads2" id="fbplads2">
+  <i class="fa fa-facebook-square"></i>
+</div>
+
+</div>
+
+<div class="whereyouatwrapper">
+
+<div class="whereyouat">
+  <div class="anglefix">
+  </div>
+  <div class="anglefix1">
+  </div>
+  <span>Musik</span>
+  <img src="img/back.png" alt="">
+  <span>Pop</span>
+</div>
+</div>
+
+<div class="searchbar">
+<input type="text" placeholder="Søg efter arrangement, kunstner eller dato" name="search" value="">
+</div>
+
+<div class="results">
+  <span>20 resultater</span>
+  <form action="/action_page.php">
+  <select name="søgefunktion">
+    <option value="Dato" selected>Dato</option>
+    <option value="Kunstner">Kunstner</option>
+    <option value="Lokation">Lokation</option>
+  </select>
+</form>
+</div>
+
+<div class="datocontent">
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">3</span>
+      <span class="datospan1">apr <br> 2018</span>
+      <span class="datospan2">tir <br> 20:00</span>
+      <span class="titlespan">Bruno Mars</span>
+      <span class="locationspan"><b>Train</b> <br> Århus</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">7</span>
+      <span class="datospan1">apr <br> 2018</span>
+      <span class="datospan2">lør <br> 18:00</span>
+      <span class="titlespan">Thomas Helmig</span>
+      <span class="locationspan"><b>Royal Arena</b> <br> København S</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">14</span>
+      <span class="datospan1">apr <br> 2018</span>
+      <span class="datospan2">lør <br> 19:00</span>
+      <span class="titlespan">Ed Sheeran</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">22</span>
+      <span class="datospan1">apr <br> 2018</span>
+      <span class="datospan2">søn <br> 15:00</span>
+      <span class="titlespan">Justin Timberlake</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+      <button class="udsolgt">Udsolgt</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">23</span>
+      <span class="datospan1">apr <br> 2018</span>
+      <span class="datospan2">søn <br> 15:00</span>
+      <span class="titlespan">Lorde</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">30</span>
+      <span class="datospan1">apr <br> 2018</span>
+      <span class="datospan2">søn <br> 14:00</span>
+      <span class="titlespan">Justin Bieber - Purpose Tour</span>
+      <span class="locationspan"><b>Train</b> <br> Århus</span>
+      <a href="billetside.html"><button>Find billetter</button></a>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">2</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">man <br> 21:00</span>
+      <span class="titlespan">Søs Fenger</span>
+      <span class="locationspan"><b>Royal Arena</b> <br> København S</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">6</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">fre <br> 20:00</span>
+      <span class="titlespan">Moonjam</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+    <button class="udsolgt">Udsolgt</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">7</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">lør <br> 20:00</span>
+      <span class="titlespan">De Danske Hyrder</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+    <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">19</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">tor <br> 19:00</span>
+      <span class="titlespan">Neighbours & Friends</span>
+      <span class="locationspan"><b>Royal Arena</b> <br> København S</span>
+    <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">21</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">lør <br> 18:30</span>
+      <span class="titlespan">TONIGHT ALIVE</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+      <button class="udsolgt">Udsolgt</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">24</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">tir <br> 21:30</span>
+      <span class="titlespan">Harry Styles</span>
+      <span class="locationspan"><b>Train</b> <br> Århus</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">29</span>
+      <span class="datospan1">maj <br> 2018</span>
+      <span class="datospan2">søn <br> 17:00</span>
+      <span class="titlespan">Hopsin</span>
+      <span class="locationspan"><b>Parken</b> <br> København</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">3</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">tor <br> 17:00</span>
+      <span class="titlespan">Alcabean</span>
+      <span class="locationspan"><b>Train</b> <br> Århus</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">5</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">lør <br> 21:00</span>
+      <span class="titlespan">Level 42</span>
+      <span class="locationspan"><b>Royal Arena</b> <br> København S</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">12</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">lør <br> 20:00</span>
+      <span class="titlespan">Lis Sørensen</span>
+      <span class="locationspan"><b>Vendelbohus</b> <br> Hjørring</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">17</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">tor <br> 20:00</span>
+      <span class="titlespan">Bjørn Eidsvåg</span>
+      <span class="locationspan"><b>Train</b> <br> Århus</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">20</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">søn <br> 21:00</span>
+      <span class="titlespan">Søren Huss</span>
+      <span class="locationspan"><b>Vendelbohus</b> <br> Hjørring</span>
+      <button class="udsolgt">Udsolgt</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">24</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">tor <br> 18:00</span>
+      <span class="titlespan">Obituary</span>
+      <span class="locationspan"><b>Train</b> <br> Århus</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+  <div class="event">
+    <div class="datotid">
+      <span class="datospan">27</span>
+      <span class="datospan1">jun <br> 2018</span>
+      <span class="datospan2">søn <br> 14:00</span>
+      <span class="titlespan">Johnny Logan</span>
+      <span class="locationspan"><b>Vendelbohus</b> <br> Hjørring</span>
+      <button>Find billetter</button>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <div class="shadowoverlay">
+    <div class="footercontent">
+      <h3>Billetsalg.dk</h3>
+      <span>Snedkervej 12</span>
+      <span>2630 Taastrup</span>
+      <span>CVR-nr: 10 14 77 51</span>
+      <span>Kontakt os - Klik her</span>
+      <a href="https://www.linkedin.com/company/billetsalg-dk-aps" class="fa da fa-facebook"></a>
+      <a href="https://www.facebook.com/billetsalg" class="fa da fa-linkedin"></a>
+      <img src="img/logo.png" alt="">
+    </div>
+  </div>
+</footer>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/javascript.js"></script>
+  <script type="text/javascript" src='fb.js'></script>
+
+</body>
+
+</html>

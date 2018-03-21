@@ -1,0 +1,126 @@
+
+
+.musiksection{
+  border-radius: 0.2em;
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 1em;
+}
+
+.musikh1{
+  padding-top: 1em;
+  margin-left: 1.5em;
+  margin-bottom: 0;
+}
+
+.musikcontent{
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.musik1{
+  border-radius: 0.2em;
+  background-color: white;
+  width: 20%;
+  height: 90%;
+}
+
+.musik1>a>img{
+  border-radius: 0.2em 0.2em 0 0;
+  width: 100%;
+}
+
+.musik2{
+  border-radius: 0.2em;
+  background-color: white;
+  width: 20%;
+  height: 90%;
+}
+
+.musik2>a>img{
+  border-radius: 0.2em 0.2em 0 0;
+  width: 100%;
+}
+
+.musik3{
+  border-radius: 0.2em;
+  background-color: white;
+  width: 20%;
+  height: 90%;
+}
+
+.musik3>a>img{
+  border-radius: 0.2em 0.2em 0 0;
+  width: 100%;
+}
+
+.musik4{
+  border-radius: 0.2em;
+  background-color: white;
+  width: 20%;
+  height: 90%;
+}
+
+.musik4>a>img{
+  border-radius: 0.2em 0.2em 0 0;
+  width: 100%;
+}
+
+.musikkat{
+  text-align: center;
+}
+
+.musikkat>a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 670px){
+  .musikcontent{
+    flex-direction: column;
+  }
+
+  .musikh1{
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .musik1{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+  }
+
+  .musik2{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+  }
+
+
+  .musik3{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+  }
+
+
+  .musik4{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+  }
+
+
+
+
+}

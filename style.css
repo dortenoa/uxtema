@@ -1,0 +1,446 @@
+*{
+  font-family: 'Mina', sans-serif;
+}
+
+header>h1{
+  color: white;
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+
+select{
+    border: none;
+    border-radius: 0.2em;
+}
+
+
+.searchbtn{
+  border: none;
+  border-radius: 0em 0.2em 0.2em 0em;
+}
+
+.logofis{
+  width: 15%;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  margin-top: -1em;
+}
+
+.breadcrumbs{
+  margin-left: 2%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.aBread{
+  text-decoration: none;
+  color: black;
+}
+
+.aBread:hover{
+  text-decoration: underline;
+}
+
+.spanBread{
+  color: darkgrey;
+}
+
+.event-wrapper {
+  max-width: 1050px;
+  margin: auto;
+  position: relative;
+  border: 1px solid #5555;
+  margin-bottom: 20px;
+}
+
+.stadionwrapper {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  margin: auto;
+  max-width: 100%;
+}
+
+.event-info{
+  padding: 2em 2em 2em 2em;
+  height: 250px;
+  margin: auto;
+  margin-top: 3em;
+  justify-content: space-between;
+  max-width: 1050px;
+}
+
+.event-info>img{
+  max-width: 33%;
+  float: left;
+}
+
+.dato-box{
+  width: 33%;
+  margin-left: 0.5em;
+  display: flex;
+  flex-direction: column;
+  font-size: 140%;
+  height: 150px;
+  float: left;
+}
+
+.month{
+  margin-top: -15px;
+}
+
+.day{
+  font-size: 200%;
+  margin-top: -70px;
+  margin-bottom: -70px;
+}
+
+.content{
+  margin-top: 0.2em;
+  margin-left: 2em;
+}
+
+.billetter{
+  max-width: 1050px;
+  margin: auto;
+  padding-top: 35px;
+  border: 1px solid #5555;
+}
+
+.pagewrapper {
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.10));
+  max-width: 1050px;
+  margin: auto;
+  padding: 25px;
+}
+
+.endshadow {
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.10));
+  height: 150px;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.billetcontent{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.8em;
+}
+
+h2{
+  margin-top: 2em;
+  max-width: 1050px;
+  margin:auto;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.prisInfo{
+  max-width: 1050px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+.standard{
+  width: 250px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 1px darkgrey;
+}
+
+i{
+  color: darkgrey;
+}
+
+.ned{
+  background-color: darkgrey;
+  height: 50%;
+  text-align: center;
+}
+
+
+.op{
+  font-weight: bold;
+  height: 50%;
+  text-align: center;
+}
+
+.vip{
+  background-color: blue;
+}
+
+.VIP{
+  width: 250px;
+  height: 180px;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 1px darkgrey;
+}
+
+.køb{
+  background-color: #7ab55c;
+  height: 20%;
+  width: 518px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0.2em;
+  cursor: pointer;
+  color: white;
+}
+
+.billetkøb{
+  margin-top: 0.2em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.stadion{
+  width: 800px;
+  min-width: 450px;
+  height: 300px;
+  margin: auto;
+  margin-left: 5px;
+  margin-top: 20px;
+  display: inline-grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.stadion>div{
+  cursor: pointer;
+}
+
+.stadion>div:hover{
+  background-color: #81dd6c;
+}
+
+.blok1{
+  border-radius: 50% 0 0 0;
+  background-color: #adadad;
+}
+
+.blok2{
+  background-color: #adadad;
+}
+
+.blok3{
+  background-color: #adadad;
+}
+
+.blok4{
+  background-color: #adadad;
+}
+
+.blok5{
+  background-color: #adadad;
+}
+
+.blok6{
+  border-radius: 0 50% 0 0;
+  background-color: #adadad;
+}
+
+.blok7{
+  background-color: #adadad;
+}
+
+.blok8{
+  background-color: #adadad;
+}
+
+.blok9{
+  background-color: #adadad;
+}
+
+.blok10{
+  background-color: #adadad;
+}
+
+.blok11{
+  background-color: #adadad;
+}
+
+.blok12{
+  background-color: #adadad;
+}
+
+.blok13{
+  background-color: #adadad;
+}
+
+.blok14{
+  background-color: #adadad;
+}
+
+.blok15{
+  background-color: #adadad;
+}
+
+.blok16{
+  background-color: #adadad;
+}
+
+.blok17{
+  background-color: #adadad;
+}
+
+.blok18{
+  background-color: #adadad;
+}
+
+.blok19{
+  background-color: #adadad;
+}
+
+.blok20{
+  background-color: #adadad;
+}
+
+.blok21{
+  background-color: #adadad;
+}
+
+.blok22{
+  background-color: #adadad;
+}
+
+.blok23{
+  background-color: #adadad;
+}
+
+.blok24{
+  background-color: #adadad;
+}
+
+.blok25{
+  background-color: #adadad;
+}
+
+.blok26{
+  background-color: #adadad;
+}
+
+.blok27{
+  border-radius: 0 0 0 50%;
+  background-color: #adadad;
+}
+
+.blok28{
+  background-color: #adadad;
+}
+
+.blok29{
+  background-color: #adadad;
+}
+
+.blok30{
+  background-color: #adadad;
+}
+
+.blok31{
+  background-color: #adadad;
+}
+
+.blok32{
+  border-radius: 0 0 50% 0;
+  background-color: #adadad;
+}
+
+.blok33{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.court{
+  width: 100%;
+  height: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 2% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.game1{
+  max-width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.game2{
+  max-width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
